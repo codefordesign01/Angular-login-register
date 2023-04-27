@@ -1,0 +1,25 @@
+<div class="container py-5">
+    <div class="row justify-content-center">
+         <div class="col-lg-6 col-md-12 ">
+            <div class="p-4  bg-white shadow-lg rounded border border-primary">
+                <form [formGroup]="loginForm" (ngSubmit)="login()">
+                    <h2 class="text-center text-primary">Login</h2>
+                    <div class="form-group mb-3">
+                        <label>User Name</label>
+                        <input type="text" class="form-control" placeholder="Enter email / phone / username" name="username" formControlName="username">
+                    </div>
+                    <div class="form-group mb-3">
+                        <label>Password</label>
+                        <input type="password" class="form-control" placeholder="Password" name="password" formControlName="password">
+                    </div>
+                    <div class="mb-3">
+                        <a  routerLink="/register" class="text-primary">Register Aa New User</a>
+                    </div>
+                    <div class="">
+                        <button class="btn btn-primary w-100">Login</button>
+                    </div>
+                </form>
+            </div>
+         </div>
+    </div>
+</div>

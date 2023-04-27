@@ -1,0 +1,27 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": "shahzad",
+      "fname": "shahzad ahmad",
+      "email": "shahzad@gmail.com",
+      "password": "12345678",
+      "number": "03034990718",
+      "gender": "male",
+      "adress": "pakistan"
+    },
+    {
+      "id": "zain",
+      "fname": "zain ali",
+      "email": "zain@gmail.com",
+      "password": "12365478",
+      "number": "03033330303",
+      "gender": "male",
+      "adress": "gujranwala"
+    }
+  ]
+}
